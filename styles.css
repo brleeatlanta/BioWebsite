@@ -1,0 +1,230 @@
+body {
+    background-color: #9f89a6; /* Light dull purple */
+    margin: 32px;
+    margin-top: 0;
+    overflow: auto;
+}
+
+h1 {
+    font-family: 'Georgia', serif;
+    font-size: 56px;
+    color: #4b384f; /* Dark dull purple */
+    margin: 24px;
+    margin-bottom: -8px;
+}
+
+h2 {
+    font-family: 'Georgia', serif;
+    font-size: 40px;
+    color: #4b384f; /* Dark dull purple */
+    margin: 24px;
+    margin-bottom: -8px;
+}
+
+h3 {
+    font-family: 'Georgia', serif;
+    font-size: 30px;
+    color: #563461; /* Dark dull purple */
+    margin-left: 40px;
+    margin-bottom: -8px;
+}
+
+p {
+    font-family: 'Verdana', sans-serif;
+    font-weight:lighter;
+    color: #252127; /* Darker dull purple */
+    font-size: 26px;
+    line-height: 40px;
+    margin-left: 40px;
+}
+
+img {
+    border: 8px solid #c5b2ca;
+    box-shadow: 0 8px 10px rgba(58, 35, 62, 0.3);
+}
+
+video {
+    float: right;
+    border: 8px solid #b299b9;
+    width: 40%;
+    max-width: 1000px;
+    box-shadow: 0 8px 10px rgba(58, 35, 62, 0.3);
+    margin: 32px;
+    margin-right: 10%;
+    margin-left: 64px;
+}
+
+#profilePic {
+    margin-right: 30px;
+    float: left;
+    background-size: fill;
+    max-width: 35%;
+    vertical-align: middle;
+}
+
+#pic {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+#picSet {
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    max-width: 1800px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+#profileCard {
+    width: 60%;
+    min-width: 1000px;
+    max-width: 1100px;
+    margin: auto;
+    text-align: left;
+    padding: 16px;
+    background-color: #b299b9;
+    box-shadow: 0 8px 10px rgba(58, 35, 62, 0.3);
+    box-sizing: content-box;
+    overflow: hidden;
+}
+
+#hobbies {
+    background-color: #9f89a6;
+    text-align: right;
+    overflow: hidden;
+}
+
+#recs {
+    padding: 16px;
+    background-color: #b299b9;
+    box-shadow: 0 8px 10px rgba(58, 35, 62, 0.3);
+}
+
+ul li {
+    font-family: 'Verdana', sans-serif;
+    color: #53385f; /* Middling dull purple */
+    font-size: 26px;
+    line-height: 32px;
+    margin-left: 40px;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 16.66%;
+    padding: 16px;
+}
+
+nav {
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 80px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:#433141;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+}
+
+nav ul #navbar li a {
+    padding: 100px;
+}
+
+nav ul li a:hover {
+    color:#6f4f7a;
+}
+
+nav ul #links li a {
+    font-weight: normal;
+    color: #5c326f; /* Darker dull purple */
+    font-size: 30px;
+}
+
+nav ul #links li a:hover {
+    color: #321e3a; /* Darker dull purple */
+}
+
+#themeButton {
+    background: url("Dark Mode.svg");
+    background-position: center;
+    width: 75px;
+    height: 75px;
+    font-size: 0px;
+    border: 0;
+    position:relative;
+    top:70px;
+}
+
+/* Alt Themes Begin */
+
+.dark-theme {
+    background-color: #3b2a3a;
+    color: #b299b9;
+}
+
+.dark-theme h1, .dark-theme h2 {
+    color: #8f6496;
+}
+
+.dark-theme h3 {
+    color: #835e8c;
+}
+
+.dark-theme #profileCard, .dark-theme #recs {
+    background-color: #4a3547;
+    box-shadow: 0 8px 10px rgba(41, 25, 44, 0.5);
+}
+
+.dark-theme #hobbies {
+    background-color: #3b2a3a;
+}
+
+.dark-theme p, .dark-theme ul li {
+    color: #9a8b9e;
+}
+
+.dark-theme video, .dark-theme img {
+    border: 8px solid #633e67;
+    box-shadow: 0 8px 10px rgba(41, 25, 44, 0.5);
+}
+
+.dark-theme #themeButton {
+    background: url("Light Mode.svg");
+}
+
+.dark-theme nav ul li a {
+    color:#705778;
+}
+
+.dark-theme nav ul li a:hover {
+    color:#8b6599;
+}
+
+.dark-theme nav ul #links li a {
+    color:#84658f;
+}
+
+.dark-theme nav ul #links li a:hover {
+    color:#b8a0c1;
+}
+
+/* Alt Themes End */
